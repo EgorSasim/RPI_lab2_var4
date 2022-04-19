@@ -1,0 +1,131 @@
+.main-slider {
+    height: 503px;
+    width: 100%;
+}
+
+.main-slider-control-panel {
+    height: 48px;
+    width: 100%;
+    display: flex;
+}
+
+.main-slider-control-panel-txt-part {
+    width: 500px;
+    height: 100%;
+    margin-left: 115px;
+    display: flex;
+    margin-right: 371px;
+}
+
+.main-slider-control-panel-txt-part>div>span {
+    color: black;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.main-slider-control-panel-txt-part-hot {
+    background-color: #FD926D;
+    width: 135px;
+}
+
+.main-slider-control-panel-txt-part-hot>span {
+    margin-top: 15px;
+    margin-left: 19px;
+}
+
+.main-slider-control-panel-txt-part-design {
+    width: 135px;
+}
+
+.main-slider-control-panel-txt-part-design>span {
+    margin-top: 16px;
+    margin-left: 22px
+}
+
+.main-slider-control-panel-txt-part-featured {
+    width: 110px;
+}
+
+.main-slider-control-panel-txt-part-featured>span {
+    margin-top: 16px;
+    margin-left: 15px;
+}
+
+.main-slider-control-panel-txt-part-latest>span {
+    margin-top: 16px;
+    margin-left: 23px;
+}
+
+.main-slider-control-panel-arrow-part {
+    width: 96px;
+    height: 100%;
+    display: flex;
+}
+
+.main-slider-control-panel-arrow-part-left-arrow {
+    width: 48px;
+    height: 100%;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.main-slider-control-panel-arrow-part-left-arrow>span {
+    display: inline-block;
+    font-size: 53px;
+    margin-top: -5px;
+    margin-left: 9px;
+    color: #979797;
+    user-select: none;
+}
+
+.main-slider-control-panel-arrow-part-right-arrow {
+    width: 48px;
+    height: 100%;
+    background-color: #FD926D;
+    cursor: pointer;
+}
+
+.main-slider-control-panel-arrow-part-right-arrow>span {
+    display: inline-block;
+    font-size: 53px;
+    margin-top: -5px;
+    margin-left: 9px;
+    color: #fff;
+    user-select: none;
+}
+
+
+/* IMAGES PANEL */
+
+.main-slider-moving-line{
+    height: 455px;
+    width: 1000%;
+    margin-left: -12%;
+    display: flex;
+    flex-shrink: 0;
+    animation:  1s linear;
+}
+
+
+.main-slider-imgs-panel {
+    height: 455px;
+    width: 100%;
+    background-color: #FD926D;
+    overflow: hidden;
+    
+}
+
+
+.main-slider-girl{
+    width: 257px;
+    height: 320px;
+    border: 1px solid black;
+    margin: auto 0.05%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.main-slider-girl > img{
+    width: 100%;
+    height: 100%;
+}
